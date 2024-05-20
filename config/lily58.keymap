@@ -40,20 +40,20 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1  &kp F2  &kp F3          &kp F4          &kp F5     &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans          &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3          &kp F4          &kp F5     &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10    &kp F11   &kp F12
+&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                    &trans  &trans  &trans  &kp LBKT   &kp RBKT  &kp BSLH
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                    &trans  &trans  &trans  &trans     &kp SEMI  &kp SQT
+&trans  &trans  &trans          &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans  &kp COMMA  &kp DOT   &kp FSLH
                                 &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
         upper_layer {
             bindings = <
-&kp GRAVE  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans                    &bt BT_CLR  &trans          &trans          &kp MINUS        &kp EQUAL  &kp DELETE
-&trans     &trans        &trans        &trans  &trans  &trans                    &trans      &trans          &kp UP_ARROW    &kp LBKT         &kp RBKT   &kp BSLH
-&trans     &trans        &trans        &trans  &trans  &trans                    &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SEMI   &kp SQT
-&trans     &trans        &trans        &trans  &trans  &trans  &trans    &trans  &trans      &trans          &kp COMMA       &kp DOT          &kp FSLH   &kp RSHFT
+&kp GRAVE  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans                    &bt BT_CLR  &trans          &trans          &kp MINUS        &kp EQUAL      &kp DELETE
+&trans     &trans        &trans        &trans  &trans  &trans                    &trans      &trans          &kp UP_ARROW    &kp LS(LBRC)     &kp LS(RBRC)   &kp LS(PIPE)
+&trans     &trans        &trans        &trans  &trans  &trans                    &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(COLON)  &kp LS(DQT)
+&trans     &trans        &trans        &trans  &trans  &trans  &trans    &trans  &trans      &trans          &kp LS(LT)      &kp LS(GT)       &kp LS(QMARK)  &kp RSHFT
                                        &trans  &trans  &trans  &trans    &trans  &trans      &trans          &trans
             >;
 
